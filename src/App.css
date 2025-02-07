@@ -1,0 +1,90 @@
+.app {
+  background-color: #ebe1eb;
+  min-height: 100vh;
+}
+
+/* search field css start*/
+
+.searchFile {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.searchInput {
+  width: 50%;
+  height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* search field css end*/
+.folderContainerBody {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  gap: 50px;
+  padding: 15px;
+}
+.folder-container {
+  width: 25%;
+  height: 70vh;
+  border-radius: 5px;
+  border: 2px solid rgb(180 187 221) !important;
+}
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  height: 70vh;
+  border-radius: 5px;
+  border: 2px solid rgb(180 187 221) !important;
+}
+.folder {
+  margin-top: 6px;
+  background-color: rgb(180 187 221);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.folder > span {
+  margin: 0 5px;
+}
+
+.folder > div > button {
+  font-size: 15px;
+  background-color: white;
+}
+
+.file {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
